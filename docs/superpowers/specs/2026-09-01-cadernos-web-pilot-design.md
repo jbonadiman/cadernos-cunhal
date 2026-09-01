@@ -133,6 +133,14 @@ image; all subsequent interaction is client-side only:
   links wired to the recovered jump table; visited pages get a `.visited`
   CSS class (grayed out), tracked in-memory for the session
 
+Layout is responsive via plain CSS (flexbox/media queries, no framework):
+the page image scales to fit viewport width on narrow screens, the toolbar
+collapses to icon-only buttons below a breakpoint, and the transcription
+panel becomes a full-screen overlay on mobile instead of a side panel.
+Touch input gets swipe-left/right for prev/next in addition to the
+existing buttons/keyboard. No separate mobile build — same HTML/CSS/JS,
+purely responsive.
+
 ## Error handling
 
 - **Build-time**: if a button's `gotoAndStop(N)` target isn't a valid
@@ -158,7 +166,9 @@ lightweight:
 - **Manual browser walkthrough**: navigation (buttons, keyboard, jump box),
   zoom, rotate, fullscreen, and transcription panel (open/close, jump
   links, visited styling) in one current browser before calling the pilot
-  done.
+  done, repeated at a mobile viewport width (via browser dev tools device
+  emulation, plus a real phone if convenient) to confirm the responsive
+  layout, touch swipe navigation, and full-screen transcription overlay.
 
 No automated test framework (e.g. Playwright) for the pilot — would be
 disproportionate to a single 28-page static book. Worth reconsidering if
@@ -173,5 +183,3 @@ this pipeline is extended to all five books later.
 - The other four books (Caderno 1, Caderno 28, Caderno 43, Inventário) —
   pipeline should generalize to them once the pilot is validated, but
   building them out is a follow-up, not part of this design.
-- Mobile/responsive layout — original was a desktop CD-ROM app; not a
-  stated requirement here.
