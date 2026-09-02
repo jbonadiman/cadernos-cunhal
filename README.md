@@ -84,21 +84,20 @@ pipeline produces from them.
 
 ## Running the extraction pipeline
 
-Requires the source disc mounted locally and [JPEXS Free Flash
+Requires the source disc mounted locally, [JPEXS Free Flash
 Decompiler](https://github.com/jindrapetrik/jpexs-decompiler) (`ffdec`) on
-your `PATH`. The pipeline itself only needs Pillow:
+your `PATH`, and [uv](https://docs.astral.sh/uv/):
 
 ```sh
-python3 -m venv .venv
-.venv/bin/pip install -r extract/requirements.txt
+uv sync
 ```
 
 Run the full pipeline for every book, or a single one with `--book`:
 
 ```sh
-.venv/bin/python -m extract.build_manifest [--book <slug>]
-.venv/bin/python -m extract.extract_images [--book <slug>]
-.venv/bin/python -m extract.extract_transcriptions [--book <slug>]
+uv run python -m extract.build_manifest [--book <slug>]
+uv run python -m extract.extract_images [--book <slug>]
+uv run python -m extract.extract_transcriptions [--book <slug>]
 ```
 
 Output is written into `web/books/<slug>/`.
@@ -106,7 +105,7 @@ Output is written into `web/books/<slug>/`.
 ## Testing
 
 ```sh
-.venv/bin/python -m pytest extract/tests/
+uv run pytest extract/tests/
 ```
 
 35 tests, covering the SWF parsing primitives and the manifest-recovery
