@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cadernos — Álvaro Cunhal</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="viewer">
+    <header id="book-header">
+      <a id="library-link" href="index.html">&larr; Biblioteca</a>
+      <h1 id="book-title"></h1>
+      <p>Álvaro Cunhal</p>
+    </header>
+    <div id="reading-area">
+      <div id="page-area">
+        <img id="page-image" alt="">
+        <div id="page-unavailable" hidden>Página indisponível</div>
+      </div>
+      <div id="transcription-pane" hidden>
+        <div id="transcription-text"></div>
+      </div>
+    </div>
+    <div id="audio-banner" hidden>
+      <p>A edição original desta obra incluía música de fundo — pode ativá-la no botão "Música" da barra de ferramentas.</p>
+      <button id="dismiss-audio-banner" aria-label="Fechar">&times;</button>
+    </div>
+    <div id="toolbar">
+      <button id="prev-page" aria-label="Página anterior">&larr;</button>
+      <input id="page-input" type="number" min="1" value="1">
+      <span id="page-count"></span>
+      <button id="next-page" aria-label="Página seguinte">&rarr;</button>
+      <button id="zoom-out" aria-label="Reduzir">&minus;</button>
+      <button id="zoom-in" aria-label="Ampliar">&plus;</button>
+      <button id="rotate" aria-label="Rodar">&#8635;</button>
+      <button id="fullscreen" aria-label="Ecrã completo">&#9974;</button>
+      <button id="toggle-audio" aria-label="Música"></button>
+    </div>
+    <audio id="background-audio" src="audio/sitesound.mp3" loop></audio>
+  </div>
+  <script src="js/viewer.js"></script>
+</body>
+</html>
