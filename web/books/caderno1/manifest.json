@@ -1,0 +1,316 @@
+{
+  "title": "Caderno 1",
+  "page_count": 62,
+  "pages": [
+    {
+      "number": 1,
+      "image": "pages/01.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 2,
+      "image": "pages/02.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 3,
+      "image": "pages/03.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 4,
+      "image": "pages/04.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 5,
+      "image": "pages/05.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 6,
+      "image": "pages/06.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 7,
+      "image": "pages/07.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 8,
+      "image": "pages/08.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 9,
+      "image": "pages/09.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 10,
+      "image": "pages/10.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 11,
+      "image": "pages/11.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 12,
+      "image": "pages/12.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 13,
+      "image": "pages/13.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 14,
+      "image": "pages/14.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 15,
+      "image": "pages/15.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 16,
+      "image": "pages/16.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 17,
+      "image": "pages/17.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 18,
+      "image": "pages/18.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 19,
+      "image": "pages/19.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 20,
+      "image": "pages/20.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 21,
+      "image": "pages/21.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 22,
+      "image": "pages/22.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 23,
+      "image": "pages/23.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 24,
+      "image": "pages/24.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 25,
+      "image": "pages/25.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 26,
+      "image": "pages/26.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 27,
+      "image": "pages/27.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 28,
+      "image": "pages/28.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 29,
+      "image": "pages/29.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 30,
+      "image": "pages/30.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 31,
+      "image": "pages/31.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 32,
+      "image": "pages/32.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 33,
+      "image": "pages/33.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 34,
+      "image": "pages/34.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 35,
+      "image": "pages/35.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 36,
+      "image": "pages/36.jpg",
+      "type": "blank"
+    },
+    {
+      "number": 37,
+      "image": "pages/37.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 38,
+      "image": "pages/38.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 39,
+      "image": "pages/39.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 40,
+      "image": "pages/40.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 41,
+      "image": "pages/41.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 42,
+      "image": "pages/42.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 43,
+      "image": "pages/43.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 44,
+      "image": "pages/44.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 45,
+      "image": "pages/45.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 46,
+      "image": "pages/46.jpg",
+      "type": "blank"
+    },
+    {
+      "number": 47,
+      "image": "pages/47.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 48,
+      "image": "pages/48.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 49,
+      "image": "pages/49.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 50,
+      "image": "pages/50.jpg",
+      "type": "blank"
+    },
+    {
+      "number": 51,
+      "image": "pages/51.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 52,
+      "image": "pages/52.jpg",
+      "type": "blank"
+    },
+    {
+      "number": 53,
+      "image": "pages/53.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 54,
+      "image": "pages/54.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 55,
+      "image": "pages/55.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 56,
+      "image": "pages/56.jpg",
+      "type": "blank"
+    },
+    {
+      "number": 57,
+      "image": "pages/57.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 58,
+      "image": "pages/58.jpg",
+      "type": "blank"
+    },
+    {
+      "number": 59,
+      "image": "pages/59.jpg",
+      "type": "transcription"
+    },
+    {
+      "number": 60,
+      "image": "pages/60.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 61,
+      "image": "pages/61.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 62,
+      "image": "pages/62.jpg",
+      "type": "plain"
+    }
+  ]
+}

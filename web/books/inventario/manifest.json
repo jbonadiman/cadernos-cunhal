@@ -1,0 +1,26 @@
+{
+  "title": "Inventário",
+  "page_count": 4,
+  "pages": [
+    {
+      "number": 1,
+      "image": "pages/1.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 2,
+      "image": "pages/2.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 3,
+      "image": "pages/3.jpg",
+      "type": "plain"
+    },
+    {
+      "number": 4,
+      "image": "pages/4.jpg",
+      "type": "plain"
+    }
+  ]
+}
