@@ -1,8 +1,9 @@
 # Cadernos — Álvaro Cunhal's Prison Notebooks
 
 A static, dependency-free web viewer for the facsimile notebooks Álvaro Cunhal
-wrote while imprisoned in the Peniche fortress (1949–1960), rebuilt from an
-old Flash CD-ROM release that no longer runs on modern machines.
+wrote while imprisoned in the Peniche fortress (1949–1960), rebuilt from
+"Cadernos da Prisão", an old Flash CD-ROM release that no longer runs on
+modern machines.
 
 Five books are included:
 

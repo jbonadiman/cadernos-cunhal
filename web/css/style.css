@@ -240,6 +240,27 @@ body {
   margin: 0.3rem 0 0;
 }
 
+#about-note {
+  max-width: 640px;
+  margin: 0 0 2rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+#about-note p {
+  margin: 0 0 1rem;
+}
+
+#about-note p:last-child {
+  margin-bottom: 0;
+}
+
+#about-note em {
+  color: var(--accent);
+  font-style: italic;
+}
+
 #book-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
